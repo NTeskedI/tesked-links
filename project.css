@@ -1,0 +1,34 @@
+:root{
+    --color-bg: #444454;
+    --color-text: #FBF1FB;
+}
+
+ /**---- Universal settings ----**/
+ body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: var(--color-bg);
+ }
+
+/**---- Less Universal settings ----**/
+.title_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title_text{
+    color: var(--color-text);
+    text-align: center;
+    font-size: 32pt;
+    margin-top: 6rem;
+    margin-bottom: 0;
+}
+
+#title_subtext{
+    color: var(--color-text);
+    text-align: center;
+    font-size: 19.7pt;
+}
