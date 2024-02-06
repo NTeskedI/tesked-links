@@ -13,7 +13,42 @@
     background-color: var(--color-bg);
  }
 
-/**---- Less Universal settings ----**/
+/**---- Less Universal settings (aka classes) ----**/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(242, 243, 244, 0.5);
+    background-blend-mode: screen;
+    border-radius: 200px;
+    font-family: "kit-rounded-variable", sans-serif;
+    font-variation-settings: "wght" 700;
+    color: var(--color-primary);
+}
+
+.card{
+    max-width: 490px;
+    height: 90px;
+    margin-top:20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24.28pt;
+}
+
+.heart_left{
+    scale:1.2;
+    float:left;
+}
+
+.heart_right{
+    scale:1.2;
+    float:right;
+}
+
+/**---- Even less Universal settings (id) ----**/
 
 #home_button{
     margin-top: 3%;
@@ -29,30 +64,21 @@
     fill:var(--color-primary)
 }
 
-.title_content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    max-width: 500px;
-    height: 150px;
-    background-color: rgba(242, 243, 244, 0.5);
-    background-blend-mode: screen;
-    border-radius: 200px;
-    font-family: "kit-rounded-variable", sans-serif;
-    font-variation-settings: "wght" 700;    
+#title_card{
+    max-width: 490px;
+    height: 140px;
+    margin-bottom: 170px;
 }
 
 #title_text{
-    color: var(--color-primary);
     text-align: center;
     font-size: 32pt;
-    margin-top: 1rem;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
 #title_subtext{
-    color: var(--color-primary);
+    margin:0;
     text-align: center;
-    font-size: 19.7pt;
+    font-size: 19pt;
 }
