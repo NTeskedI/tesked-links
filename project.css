@@ -18,10 +18,10 @@
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin: auto;
     background-color: rgba(242, 243, 244, 0.5);
     background-blend-mode: screen;
+    justify-content: center;
     border-radius: 200px;
     font-family: "kit-rounded-variable", sans-serif;
     font-variation-settings: "wght" 700;
@@ -32,20 +32,23 @@
     max-width: 490px;
     height: 90px;
     margin-top:20px;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
+    display: flex;
     font-size: 24.28pt;
+}
+
+.card_text{
+    margin: 0;
+    align-self: center;
 }
 
 .heart_left{
     scale:1.2;
-    float:left;
+    align-self:flex-start;
 }
 
 .heart_right{
     scale:1.2;
-    float:right;
+    align-self: flex-end;
 }
 
 /**---- Even less Universal settings (id) ----**/
